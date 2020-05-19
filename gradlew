@@ -84,7 +84,7 @@ CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
 
 # Determine the Java command to use to start the JVM.
-if [ -n "$JAVA_HOME" ] ; then
+if [ -n "$JAVA_HOMExxxx" ] ; then
     if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
         # IBM's JDK on AIX uses strange locations for the executables
         JAVACMD="$JAVA_HOME/jre/sh/java"
@@ -117,7 +117,7 @@ if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then
             warn "Could not set maximum file descriptor limit: $MAX_FD"
         fi
     else
-        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+        warn "Could not xxxquery maximum file descriptor limit: $MAX_FD_LIMIT"
     fi
 fi
 
